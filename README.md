@@ -23,33 +23,8 @@ This AI system aims to assist individuals in identifying skin concerns and selec
 ## 🎯 Use Case Diagram
 
 Below is a conceptual use case diagram you can visualize:
-       +-------------------+
-       |   User Uploads    |
-       |   Skin Image      |
-       +--------+----------+
-                |
-                v
-    +-----------+-----------+
-    | ResNet50 (Skin Type   |
-    | Classification)       |
-    +-----------+-----------+
-                |
-                v
-   +------------+------------+
-   | YOLOv9 Model (Acne      |
-   | Detection)              |
-   +------------+------------+
-                |
-                v
- +--------------+---------------+
- | Product Recommender System   |
- +--------------+---------------+
-                |
-                v
-       +--------+--------+
-       | Gradio Interface |
-       +------------------+
-
+     ![](blob:https://web.whatsapp.com/eb4f447e-4c67-4688-9e9a-8dab5e457015)
+      
 ## 📦 Installation & Setup
 
 Follow these steps to set up and run the system on your local machine:
