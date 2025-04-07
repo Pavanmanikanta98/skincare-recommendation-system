@@ -23,7 +23,7 @@ This AI system aims to assist individuals in identifying skin concerns and selec
 ## 🎯 Use Case Diagram
 
 Below is a conceptual use case diagram you can visualize:
-     ![](blob:https://web.whatsapp.com/eb4f447e-4c67-4688-9e9a-8dab5e457015)
+![Image](https://github.com/user-attachments/assets/c80ab907-d340-4b81-a088-486523f13af7)
       
 ## 📦 Installation & Setup
 
