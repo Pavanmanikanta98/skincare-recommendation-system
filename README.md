@@ -6,7 +6,7 @@ A deep learning-based skincare assistant that analyzes user skin images to detec
 
 This AI system aims to assist individuals in identifying skin concerns and selecting the right skincare products based on their **acne condition** and **skin type**. It combines:
 
-- 🔍 Acne Detection using **YOLOv5**
+- 🔍 Acne Detection using **YOLOv8**
 - 🧬 Skin Type Classification with **ResNet50**
 - 💡 Product Recommendation System
 - 🌐 Intuitive Gradio-based UI for real-time interaction
@@ -70,9 +70,9 @@ python app.py
 ```
 
 ## 📊 Results
-Module	Accuracy / Score
-Skin Type Classification	98% Train / 90% Test Accuracy
-Acne Detection (YOLOv5)	65% mAP@0.5, 63% Recall
+- Module 	Accuracy / Score
+- Skin Type Classification	98% Train / 90% Test Accuracy
+- Acne Detection (YOLOv5)	65% mAP@0.5, 63% Recall
 
 🔮 Future Plans
 
