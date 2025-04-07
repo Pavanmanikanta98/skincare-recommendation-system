@@ -59,8 +59,10 @@ Follow these steps to set up and run the system on your local machine:
 git clone https://github.com/pavanmanikanta98/skincare-recommendation-system.git
 cd skincare-recommendation-system
 
-# Create Environment
------------
+# Create and activate a virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows use venv\Scripts\activate
+
 # Install dependencies
 pip install -r requirements.txt
 
@@ -72,15 +74,13 @@ python app.py
 ## 📊 Results
  Module 	Accuracy / Score
 - Skin Type Classification	98% Train / 90% Test Accuracy
-- Acne Detection (YOLOv5)	65% mAP@0.5, 63% Recall
+- Acne Detection (YOLOv8)	65% mAP@0.5, 63% Recall
 
-🔮 Future Plans
+## 🔮 Future Plans
+✅ Add human feedback loop to improve recommendations.
 
-☁️ Deploy on cloud with API support for mobile apps.
+✅ Integrate real-time user data store for continuous model fine-tuning.
 
-📲 Integrate real-time camera feed support.
+🔄 Product database enrichment using scraped data from skincare e-commerce websites.
 
-🧬 Incorporate additional skin conditions (e.g., rosacea, eczema).
-
-📈 Add product review scoring and ratings from e-commerce APIs.
-
+📲 Deploy as a mobile/web app for broader accessibility.
