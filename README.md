@@ -70,7 +70,7 @@ python app.py
 ```
 
 ## 📊 Results
-- Module 	Accuracy / Score
+ Module 	Accuracy / Score
 - Skin Type Classification	98% Train / 90% Test Accuracy
 - Acne Detection (YOLOv5)	65% mAP@0.5, 63% Recall
 
